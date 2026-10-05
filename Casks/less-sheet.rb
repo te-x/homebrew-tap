@@ -3,10 +3,10 @@ cask "less-sheet" do
   # version and the REAL sha256 straight out of SHA256SUMS. Do not hand-edit the
   # digest: a wrong one does not fail for you, it fails for everyone who installs
   # after you, with an error that looks like a corrupted download.
-  version "0.1.7"
-  sha256 "97c3dafc15c1229b9e82e1f7925f362530accd96d8427b70011199d541615bc1"
+  version "0.1.8"
+  sha256 "8ef30876223db17e8710ac8200ba00565aece032bf13b24743c1ab2e1c244cda"
 
-  url "https://github.com/te-x/less-sheet/releases/download/v0.1.7/less-sheet-#{version}-macos-arm64.zip"
+  url "https://github.com/te-x/less-sheet/releases/download/v0.1.8/less-sheet-#{version}-macos-arm64.zip"
   name "less-sheet"
   desc "Native tabular data viewer for CSV and Parquet files"
   homepage "https://te-x.github.io/less-sheet/"
